@@ -4,7 +4,7 @@
 
 import socket
 
-tcpsocket = socket.socket(socket.AF_INET, #Internet, socket.SOCK_DGRAM, # UDP)
+tcpsocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Clearing up the other mess by releasing the channel free
 

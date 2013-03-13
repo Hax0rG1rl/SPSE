@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-# Simple TCP/[UDP] ECHO Client-Server Python2.7.3 script - by JohnnyAMD - 03/12/2013
+# Simple TCP/[UDP] ECHO Client-Server script - Python2.7.3 - by JohnnyAMD - 03/12/2013
 
 import socket
 import random

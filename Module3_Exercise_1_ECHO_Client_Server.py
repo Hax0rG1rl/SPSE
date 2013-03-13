@@ -15,7 +15,7 @@ tcpsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 tcpsocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
 
-#Setting up the server
+#Setting up the server to listen an all available interfaces 
 tcpsocket.bind(('0.0.0.0', 2345))
 
 #How many concurrent connections this can handle

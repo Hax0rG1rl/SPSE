@@ -4,6 +4,10 @@
 
 import socket
 
+#socket for TCP protocol
+tcpsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# for UDP protocol
 tcpsocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Clearing up the other mess by releasing the channel free

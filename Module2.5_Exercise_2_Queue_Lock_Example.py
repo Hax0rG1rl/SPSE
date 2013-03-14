@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 
 # Simple Queue Lock mechanism example script - Python2.7.3 - by JohnnyAMD - 03/07/2013
+# https://github.com/JohnnyAMD/SPSE/edit/master/Module2.5_Exercise_2_Queue_Lock_Example.py
 
 import threading
 import Queue

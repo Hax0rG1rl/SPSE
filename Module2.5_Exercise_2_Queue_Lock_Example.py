@@ -38,7 +38,7 @@ class WorkerThread(threading.Thread):
                                     else:
 
 # here I'm formatting the read lines in such way that they contain only the host name and nothing else. 
-# Some restrictions are applied thought as ftp:// is considered not being present as prefix of the listed targets
+# Some restrictions are applied thought as ftp:// prefix is considered as not being present among listed targets
 
                                         line = line.rstrip('\n')
                                         print 'The target name has been checked: ' + line  + '\n'

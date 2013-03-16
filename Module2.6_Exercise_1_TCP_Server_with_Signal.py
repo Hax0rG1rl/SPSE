@@ -71,5 +71,5 @@ try:
 	client.close()
 
 except socket.error:
-    print "\nI'm done here waiting...."
+    print "\nI'm done waiting here...."
 	

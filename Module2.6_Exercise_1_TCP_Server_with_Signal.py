@@ -21,7 +21,7 @@ def handler(sig, frame):
 
 signal.signal(signal.SIGALRM, handler)
 
-signal.alarm(10)
+signal.alarm(100)
 
 # exception handeling 
 

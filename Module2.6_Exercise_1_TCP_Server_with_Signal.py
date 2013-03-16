@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 # Simple 100 seconds alive TCP Server - Python2.7.3 script - by JohnnyAMD - 03/16/2013
+# https://github.com/JohnnyAMD/SPSE/blob/master/Module2.6_Exercise_1_TCP_Server_with_Signal.py
 
 import socket
 import random

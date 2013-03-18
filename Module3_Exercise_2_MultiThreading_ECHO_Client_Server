@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 # Simple Multi-threading TCP ECHO Client-Server script - Python2.7.3 - by JohnnyAMD - 03/13/2013
+# https://github.com/JohnnyAMD/SPSE/blob/master/Module3_Exercise_2_MultiThreading_ECHO_Client_Server
 
 import socket
 import random

@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 # Simple TCP Multiprocess ECHO Client-Server - Python 2.7.3 script - by JohnnyAMD - 03/18/2013
+# https://github.com/JohnnyAMD/SPSE/blob/master/Module3_Exercise_3_MultiProcess_ECHO_Client_Server.py
 
 import socket
 import random

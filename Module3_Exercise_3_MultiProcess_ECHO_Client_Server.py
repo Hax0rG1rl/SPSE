@@ -50,6 +50,7 @@ for i in range(2):
 				if data == x:
 					print "You've got it. Some magic inside maybe."
 					tcpsocket.close()
+					del tcpsocket
 					break
 				else: 
 					print "He didn't pointed the correct value though"

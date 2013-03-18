@@ -32,16 +32,23 @@ print 'Receiging info from:.. ', ip
 print 'starting ECHO output '
 
 #Print the received data from the client and check to see if he guessed the value
-while 1:
-	data = client.recv(128)
-	print 'Client sent: ', data
-	client.send(data)
-	if int(data) == x:
-		print "You've got it. Some magic inside maybe."
-		break
-	else: 
-		print "He didn't pointed the correct value though"
+try:
+	while 1:
+		data = client.recv(128)
+		print 'Client sent: ', data
+		client.send(data)
+			if data == x:
+				print "You've got it. Some magic inside maybe."
+				client.close()
+				del client
+				break
+			else: 
+				print "He didn't pointed the correct value though"
 
+except KeyboardInterrupt:
+	print 'Intrerupted.'
+	client.close()
+	break
 
 # Byffer has been reach out, clossing the channel
 print "Closing comm channel."

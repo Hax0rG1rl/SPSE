@@ -10,7 +10,7 @@ import threading
 
 # defining workerthread class 
 class WorkerThread(threading.Thread) :
-  def __init__(self, bucket, server_info) :
+	def __init__(self, bucket, server_info) :
 		threading.Thread.__init__(self)
 		self.bucket = bucket
 		self.ip = server_info[0]
@@ -35,7 +35,7 @@ class WorkerThread(threading.Thread) :
 			print 'Got it. Comm channel has been closed'
 			self.bucket.close()
 			del bucket
-#			break
+			break
 
 # Socket opened for TCP protocol
 tcpsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
